@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #0f0303;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #0901ad;
+    color: rgb(250, 244, 244);
+    cursor: pointer;
+}
+
+
+
+#tree {
+    margin-top: 20px;
+}
+
+
+.card {
+   
+    padding: 10px 14px;
+    margin: 6px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.692);
+    width: fit-content;
+}
+
+.child {
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+.child::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+   }
+
+.child::after {
+    content: "";
+    position:absolute;
+    left: -15px;
+    top: 18px;
+    width: 15px;
+    height: 2px;
+   
+}
+#searchResult{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0a0909;
+}
